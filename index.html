@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>ToDo</title>
+		<link rel="stylesheet" href="style.css" />
+
+		<!-- IMPORT JQUERY FROM CDN -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<!-- IMPORT JQUERY FROM CDN -->
+	</head>
+	<div class="card">
+		<h2 class="title">Task Manager</h2>
+		<form id="itemForm">
+			<label class="pure-material-textfield-outlined">
+				<input placeholder="write a task... " name="item" type="text" id="item" required />
+			</label>
+			<input type="submit" value="add" class="pure-material-button-contained" />
+		</form>
+		<div class="list"></div>
+	</div>
+	<body>
+		<script src="app.js" defer></script>
+	</body>
+</html>
